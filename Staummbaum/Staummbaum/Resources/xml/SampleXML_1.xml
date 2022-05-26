@@ -1,0 +1,75 @@
+﻿<root>
+	<Person id="1">
+		<Name>Jessi</Name>
+		<Geschlecht>m</Geschlecht>
+		<Geschwister>
+			<PersonRef refId="1"/>
+			<PersonRef refId="3"/>
+			<PersonRef refId="4"/>
+			<PersonRef refId="7"/>
+		</Geschwister>
+		<Eltern>
+			<PersonRef refId="5" type="lv"/>
+			<PersonRef refId="6" type="lm"/>
+		</Eltern>
+	</Person>
+	<Person id="2">
+		<Name>Nici</Name>
+		<Geschlecht>w</Geschlecht>
+		<Geschwister>
+			<PersonRef refId="1"/>
+			<PersonRef refId="3"/>
+			<PersonRef refId="4"/>
+			<PersonRef refId="7"/>
+		</Geschwister>
+		<Eltern>
+			<PersonRef refId="5" type="lv"/>
+			<PersonRef refId="2" type="lm"/>
+		</Eltern>
+	</Person>
+	<Person id="3">
+		<Name>Mikel</Name>
+		<Geschlecht>w</Geschlecht>
+	</Person>
+	<Person id="4">
+		<Name>Ron</Name>
+		<Geschlecht>m</Geschlecht>
+		<Eltern>
+			<PersonRef refId="6" type="lm"/>
+		</Eltern>
+	</Person>
+	<Person id="7">
+		<Name>Steve</Name>
+		<Geschlecht>m</Geschlecht>
+		<Eltern>
+			<PersonRef refId="5" type="lv"/>
+		</Eltern>
+	</Person>
+	<Person id="8">
+		<Name>Martha</Name>
+		<Geschlecht>w</Geschlecht>
+		<Eltern>
+			<PersonRef refId="1" type="lv"/>
+			<PersonRef refId="9" type="lm"/>
+		</Eltern>
+	</Person>
+	<Person id="9">
+		<Name>Joseph</Name>
+		<Geschlecht>w</Geschlecht>
+	</Person>
+	<Person id="10">
+		<Name>Sara</Name>
+		<Geschlecht>w</Geschlecht>
+	</Person>
+	<Person id="5">
+		<Name>Robert</Name>
+		<Geschlecht>m</Geschlecht>
+		<Eltern>
+			<PersonRef refId="10" type="lm"/>
+		</Eltern>
+	</Person>
+	<Person id="6">
+		<Name>Christel</Name>
+		<Geschlecht>w</Geschlecht>
+	</Person>
+</root>
